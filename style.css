@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-title{
+    font-size: 45px;
+}
+.banner-details{
+    text-align: left;
+    padding-left: 50px;
+}
+.banner-description{
+    margin-top: 10px;
+}
+.banner-img{
+    height: 500px;
+    width: 400px;
+}
+.bg-primary{
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
